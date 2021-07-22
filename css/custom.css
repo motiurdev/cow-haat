@@ -1,9 +1,13 @@
-.catagorieshove {
-    transition: 2s;
+.catagorieshover {
+    transition: all 2s ease;
 }
 
 .catagorieshover:hover {
     cursor: pointer;
+}
+
+.catagorieshover:hover img {
+    transform: scale(1.5);
 }
 
 #top-list .card {
