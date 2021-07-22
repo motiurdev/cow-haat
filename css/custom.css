@@ -1,3 +1,27 @@
-.catagoresHover:hover {
+.catagorieshove {
+    transition: 2s;
+}
+
+.catagorieshover:hover {
     cursor: pointer;
+}
+
+#top-list .card {
+    position: relative;
+}
+
+.back-card {
+    position: absolute;
+    top: 130px;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(235, 86, 86);
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+#top-list .card:hover .back-card {
+    top:0px;
+    background-color: rgb(235, 86, 86);
 }
