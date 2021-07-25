@@ -63,3 +63,9 @@ flip card
   .card-flip:hover .card-back {
     transform: rotateY(0deg);
   }
+
+  /* @media(max-width:688px){
+    footer .col-3 {
+      display: block;
+    }
+  } */
